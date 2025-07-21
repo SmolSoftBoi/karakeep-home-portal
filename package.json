@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "vitest run --environment jsdom"
+    "test": "vitest run --environment jsdom --coverage"
   },
   "dependencies": {
     "next": "15.4.2",
@@ -23,6 +23,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitest/coverage-v8": "^1",
     "eslint": "^9",
     "eslint-config-next": "15.4.2",
     "eslint-plugin-react-hooks": "^4",
