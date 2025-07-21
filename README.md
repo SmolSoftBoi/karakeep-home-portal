@@ -20,6 +20,17 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Dev Container
+
+Launch the project in a [Dev Container](https://containers.dev/) for a ready-to-go environment:
+
+```bash
+gh repo clone <this repo>
+code --folder-uri "vscode-remote://dev-container+$(pwd)"
+```
+
+The container exposes port `3000` to run the Next.js server.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
