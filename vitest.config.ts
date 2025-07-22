@@ -6,10 +6,12 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'html'],
-      lines: 90,
-      branches: 90,
-      statements: 90,
-      functions: 90,
+      thresholds: {
+        lines: 90,
+        branches: 90,
+        statements: 90,
+        functions: 90,
+      },
       exclude: [
         '**/layout.tsx',
         '**/page.tsx',
