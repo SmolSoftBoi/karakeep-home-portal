@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "vitest run --environment jsdom --coverage"
+    "test": "vitest run --environment jsdom"
   },
   "dependencies": {
     "next": "15.4.2",
