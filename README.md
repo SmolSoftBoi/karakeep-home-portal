@@ -1,24 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Karakeep Home Portal
 
-## Getting Started
+Lightweight, read-only dashboard for your Karakeep bookmarks and stats. Built with
+[Next.js](https://nextjs.org) and styled via Tailwind CSS.
 
-First, run the development server:
+## Local Development
+
+Install dependencies and start the development server:
 
 ```bash
-npm run dev
-# or
+yarn install
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the portal.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `yarn lint` – run ESLint
+- `yarn test` – run unit tests
+- `yarn build && yarn start` – production build
 
 ## Dev Container
 
