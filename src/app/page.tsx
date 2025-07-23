@@ -1,10 +1,5 @@
 import { Header, BookmarkList } from "./components";
-
-interface Bookmark {
-  title: string;
-  url: string;
-  visits: number;
-}
+import type { Bookmark } from "./components/BookmarkList";
 
 const bookmarks: Bookmark[] = [
   { title: "Karakeep Docs", url: "https://example.com/docs", visits: 42 },
