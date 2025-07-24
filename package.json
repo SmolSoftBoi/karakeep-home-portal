@@ -6,7 +6,10 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "setup": "corepack enable && yarn install --immutable --mode=skip-build",
+    "prelint": "yarn setup",
     "lint": "next lint",
+    "pretest": "yarn setup",
     "test": "vitest run --environment jsdom"
   },
   "dependencies": {

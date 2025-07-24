@@ -5,7 +5,7 @@ Thank you for helping improve the portal! Follow these guidelines to keep the co
 ## Getting Started
 
 1. Fork the repository and create a feature branch.
-2. Install dependencies with `yarn install`.
+2. Install dependencies with `yarn setup` (runs `corepack enable && yarn install`).
 3. Start the dev server using `yarn dev`.
 
 ## Commit Style

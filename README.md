@@ -5,10 +5,10 @@ Lightweight, read-only dashboard for your Karakeep bookmarks and stats. Built wi
 
 ## Local Development
 
-Install dependencies and start the development server:
+Install dependencies with Corepack and start the development server:
 
 ```bash
-yarn install
+yarn setup
 yarn dev
 ```
 
