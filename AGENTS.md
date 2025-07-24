@@ -54,7 +54,7 @@ KaraKeep Home Portal is a lightweight, read‑only dashboard that surfaces the m
 
 ## ✨ Lint & Format
 
-* ESLint config: `./.eslintrc.cjs` (extends `next/core-web-vitals` and Tailwind plugin).
+* ESLint config: `./.eslintrc.cjs` (extends `next/core-web-vitals` and `next/typescript`).
 * Prettier config: `./.prettierrc`.
 * Commands:
 
