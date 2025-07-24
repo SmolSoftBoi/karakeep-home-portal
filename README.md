@@ -30,3 +30,13 @@ code --folder-uri "vscode-remote://dev-container+$(pwd)"
 ```
 
 The container exposes port `3000` to run the Next.js server.
+
+## Project Documentation
+
+| File | Purpose |
+| ---- | ------- |
+| `README.md` | Quick start and commands |
+| `AGENTS.md` | Agent guide and coding conventions |
+| `CONTRIBUTING.md` | How to contribute to the project |
+| `docs/ARCHITECTURE.md` | Data flow overview |
+| `src/app/components/codex.md` | Component-level rules |
