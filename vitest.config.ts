@@ -17,6 +17,7 @@ export default defineConfig({
         '**/page.tsx',
         'next.config.ts',
         'postcss.config.mjs',
+        '.eslintrc.cjs',
         '.pnp.cjs',
         '.pnp.loader.mjs',
       ],
