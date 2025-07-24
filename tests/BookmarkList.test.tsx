@@ -10,7 +10,19 @@ describe('BookmarkList', () => {
       { title: 'Repo', url: 'https://repo', visits: 2 },
     ];
     render(<BookmarkList bookmarks={bookmarks} />);
-    expect(screen.getByRole('link', { name: 'Docs (1)' }).getAttribute('href')).toBe('https://docs');
-    expect(screen.getByRole('link', { name: 'Repo (2)' }).getAttribute('href')).toBe('https://repo');
+    expect(
+      screen.getByRole('link', { name: 'Docs (1)' })
+    ).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Docs (1)' })).toHaveAttribute(
+      'href',
+      'https://docs'
+    );
+    expect(
+      screen.getByRole('link', { name: 'Repo (2)' })
+    ).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Repo (2)' })).toHaveAttribute(
+      'href',
+      'https://repo'
+    );
   });
 });
